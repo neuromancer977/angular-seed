@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Launch Chrome against localhost",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:8000/index.html",
+            "sourceMaps": true,
+            "webRoot": "app",
+            "runtimeExecutable": "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe",
+            "runtimeArgs": ["--remote-debugging-port=9222"]
+        }
+    ]
+}
